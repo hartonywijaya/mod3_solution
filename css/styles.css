@@ -1,1 +1,78 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+#styles-nav{
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+	font-weight: bold;
+}
+
+.navbar-brand h1{
+	color: #00cc00;
+	margin: 0;
+	line-height: 1;
+	font-size: 1.3em;
+}
+
+#nav-list a {
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/* CONTENT */
+
+#contentText {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row {
+	height: 1000px;
+	background-color: #000;
+}
+
+#contentText h2{
+	font-size: 2em;
+	font-weight: bold;
+	color: #00cc00;
+	text-align: center;
+}
+
+#contentText p{
+	color: #fff;
+	padding: 10px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsable-nav{
+		background-color: #90ee90;
+		font-size: 1.2em;
+	}
+}
